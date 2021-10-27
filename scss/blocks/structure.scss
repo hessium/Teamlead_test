@@ -1,0 +1,37 @@
+.structure {
+
+   &-section {
+    background: url('/img/medical.png') center center / cover no-repeat;
+   
+  }
+ 
+ 
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: rem(30px);
+  }
+
+
+  &__img {
+    margin-right: rem(63px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: rem(150px);
+
+    @include tablets {
+      margin-right: rem(15px);
+      width: rem(80px);
+    }
+  }
+}
+

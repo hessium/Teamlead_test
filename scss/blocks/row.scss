@@ -1,0 +1,42 @@
+.row {
+
+
+  &__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: rem(20px);
+    min-width: rem(200px);
+    min-height: rem(120px);
+    border: 1px solid #939DA6;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.30);
+    border-radius: 6px;
+
+    &-img {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      width: rem(60px);
+      height: rem(60px);
+    
+    }
+
+    &-icon {  
+      border-radius: 50%;
+    }
+
+    &-text {
+      text-align: center;
+    }
+  }
+
+  &-left {
+    margin-right: rem(63px);
+
+    @include tablets {
+      margin-right: rem(15px);
+    }
+  }
+}

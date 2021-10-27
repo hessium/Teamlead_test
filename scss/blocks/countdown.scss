@@ -1,0 +1,28 @@
+.countdown {
+  font-family: sans-serif;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: rem(50px);
+  margin-right: 10%;
+}
+
+.countdown-number {
+  padding: rem(10px);
+  border-radius: rem(3px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.countdown-time {
+  padding: rem(15px);
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: rem(15px);
+  font-size: rem(23px);
+}

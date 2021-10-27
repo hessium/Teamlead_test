@@ -1,0 +1,72 @@
+.promo {
+
+  &-section {
+    background: url('/img/medicines.jpg')center center / cover no-repeat;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    padding: 6%;
+  }
+
+  &__photo {
+    width: 35%;
+    position: relative;
+  }
+
+  &__text {
+    width: 45%;
+    text-align: left;
+    display: flex;
+   
+    @include tablets {
+      font-size: rem(14px);
+    }
+
+    @include phones {
+      font-size: rem(11px);
+    }
+  }
+
+  &__menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: rem(25px);
+
+  }
+
+  &__item{
+    margin-right: rem(45px);
+    font-size: rem(28px);
+
+    &:last-child{
+      margin-right: 0;
+    }
+
+    @include tablets {
+      font-size: rem(20px);
+    }
+
+    @include phones {
+      font-size: rem(14px);
+    }
+  }
+}
+
+.img__product {
+  position: absolute;
+  display: block;
+  width:65px;
+  height: 85px;
+  top: 82px;
+  left: 20px;
+}

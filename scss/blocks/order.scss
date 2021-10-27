@@ -1,0 +1,87 @@
+.order {
+
+  &-section {
+    background: url('/img/vrachi.jpg')center center / cover no-repeat;
+
+    
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: purple;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: rem(60px);
+  }
+
+  &__photo {
+    width: 15%;
+    margin-right: 10%;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: rem(30px);
+  }
+  
+  &-btn{
+    margin-right: rem(20px);
+    color: #FFFF33;
+    width: 202px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__price {
+   
+
+    &-old {
+      margin-right: rem(15px);
+      text-decoration: line-through;
+      font-size: rem(28px);
+    }
+
+    &-new {
+      letter-spacing: -1px;
+      animation: myAnimation .75s ease-out infinite;
+      text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+      font-size: rem(28px);
+    }
+  }
+  
+}
+ @keyframes myAnimation {
+
+  from {
+   text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+
+  
+} 
