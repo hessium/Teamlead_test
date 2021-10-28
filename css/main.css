@@ -636,7 +636,7 @@ img {
 }
 
 .structure-section {
-  background: url("../../img/medical.png") center center/cover no-repeat;
+  background: url("../img/medical.png") center center/cover no-repeat;
 }
 .structure__container {
   display: -webkit-box;
@@ -911,7 +911,7 @@ img {
 }
 
 .promo-section {
-  background: url("../../img/medicines.jpg") center center/cover no-repeat;
+  background: url("../img/medicines.jpg") center center/cover no-repeat;
 }
 .promo__container {
   display: -webkit-box;
@@ -1062,7 +1062,7 @@ input {
 }
 
 .order-section {
-  background: url("../../img/vrachi.jpg") center center/cover no-repeat;
+  background: url("../img/vrachi.jpg") center center/cover no-repeat;
 }
 .order__container {
   display: -webkit-box;
